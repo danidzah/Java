@@ -36,4 +36,36 @@ public  class  Exercícios3 {
 
 }
 
+//---------------------------------------------------------------------------------
+		public  class  Exercício1 {
 
+	public  static  void  principal ( String [] args ) {
+		Scanner  leia = novo  Scanner ( System . in );
+		 número int ;
+		
+		Sistema . fora . println ( "\nDigite um número: " );
+		numero = leia . proximoInt ();
+
+		if ( numero % 2 == 0 && numero > 0 )
+		{
+			Sistema . fora . println ( "\nNumero positivo e par" );
+		}
+
+		else  if ( numero % 2 == 1 )
+		{
+			Sistema . fora . println ( "\nNúmero positivo e impar" );
+		}
+	
+		if (( numero % 2 == 0 ) && ( numero < 0 ))
+		{
+			Sistema . fora . println ( "\nNumero negativo e par" );
+		}
+		else  if (( numero % 2 == - 1 ) && ( numero < 0 ))
+		{
+			Sistema . fora . println ( "\nNúmero negativo e plural" );
+
+		}
+
+}
+	
+}
